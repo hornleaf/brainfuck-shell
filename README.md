@@ -109,8 +109,8 @@ Once inside, you can enter BF code directly. Special commands (prefix characters
 **Example REPL session:**
 
 ```
-> ++++++++[>++++[<+++>-]<-]>>.   # prints 'H'
-> ! echo "BF output was used as command"   # runs the command
+> ++++++++++[>++++++++++<-]>++++.---.+++++++..+++.   # prints 'hello'
+> ! ++++++++++[>++++++++++>+++>++++++++++<<<-]>+.--.+++++.+++++++.>++.<+++++.>>+.<<-.+.   # echo test
 > # Hello
   [generated BF code for "Hello"]
 ```
