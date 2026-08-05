@@ -34,7 +34,7 @@ The interpreter follows Urban Müller’s original 1993 semantics, including `,`
 Just download the script and make it executable (or source it):
 
 ```bash
-curl -O- https://raw.githubusercontent.com/hornleaf/brainfuck-shell/main/bf.sh | install -m 755 /dev/stdin /usr/bin/bf
+curl https://raw.githubusercontent.com/hornleaf/brainfuck-shell/main/bf.sh | install -m 755 /dev/stdin /usr/bin/bf
 ```
 
 To use the `brainfuck` and `brainfuck-generate` functions in your own scripts, source the file:

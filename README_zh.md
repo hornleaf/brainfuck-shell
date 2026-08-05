@@ -34,7 +34,7 @@
 直接下载脚本并赋予执行权限（或 source 使用）：
 
 ```bash
-curl -O- https://raw.githubusercontent.com/hornleaf/brainfuck-shell/main/bf.sh | install -m 755 /dev/stdin /usr/bin/bf
+curl https://raw.githubusercontent.com/hornleaf/brainfuck-shell/main/bf.sh | install -m 755 /dev/stdin /usr/bin/bf
 ```
 
 若要在自己的脚本中使用 `brainfuck` 和 `brainfuck-generate` 函数，可以 source 该文件：
